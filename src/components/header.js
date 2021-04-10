@@ -2,6 +2,7 @@ import React from 'react'
 import '../components/header.css';
 import Chip from '@material-ui/core/Chip';
 import { makeStyles } from '@material-ui/core/styles';
+import rockOn from '../img/rockOn.JPG';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -71,11 +72,7 @@ const useStyles = makeStyles((theme) => ({
         color: "white",
         marginLeft: 10,
         fontWeight: 800,
-        flexWrap: 'wrap',
-        
-        
-
-    
+        //flexWrap: 'wrap',
 
     }
     
@@ -163,13 +160,18 @@ function Header() {
                     label="View the map"
                     clickable
                     variant="outlined"
-                    className={classes.mapChip  + " " + classes.whiteChip}
+                    className={classes.whiteChip + " " + classes.mapChip}
                     
                     
                 />     
         </div>
 
         <div className="breakeline-wrapper"><BreakLine color="#7F7C75" /></div>
+        <div className="flex-gap">
+        <div className="rockOn"><img src={rockOn}/></div>
+        <div className="belowLine"><h5>We're s 501(c)(3) Nonprofit Organization listing affordable accessible care in all 50 states.<br/>
+        Loremipsum dolor sit amet, consectetur adipiscing elit.</h5></div>
+        </div>
         
         
         

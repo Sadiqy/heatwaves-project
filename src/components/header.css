@@ -12,3 +12,25 @@
     margin-top: 100px;
     width: 50%;
 }
+
+.flex-gap {
+    display: inline-flex;
+    flex-wrap: wrap;
+    
+}
+
+.flex-gap > div {
+    margin: 6px;
+}
+
+.belowLine {
+    
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: larger;
+    
+  }
+
+  .rockOn {
+      margin-top: 50;
+  }

@@ -1,11 +1,11 @@
 import React from 'react'
 import './Navbar.css';
-import icon from '../img/yft.JPG'
+import logoIcon from '../img/yft.JPG'
 
 function Navbar() {
   return (
     <div className = 'navbar-container'>
-          <img src={icon}/>
+          <img src={logoIcon}/>
 
           <div>
             <label className="nav-item" >For Care Providers</label>
