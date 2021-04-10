@@ -1,0 +1,20 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  background-color: #FFFEF6;
+}
+
+.nav-item {
+  color: black;
+  font-weight: bold;
+  margin-right: 100px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.last-nav-item {
+  color: black;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+}
