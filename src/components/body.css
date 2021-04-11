@@ -1,0 +1,20 @@
+.body-container {
+    font-family: 'Lora', serif;
+    margin-top: 200px;
+    font-size: 33px;
+    text-align: center;
+    
+    
+}
+
+.belowHeader {
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+}
+
+#magnify {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin-left: 800px;
+}

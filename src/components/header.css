@@ -25,12 +25,11 @@
 
 .belowLine {
     
+    margin-top: 10px;
     font-family: 'Nunito', sans-serif;
-    font-weight: 800;
+    font-weight: 600;
     font-size: larger;
     
-  }
-
-  .rockOn {
-      margin-top: 50;
+    
+    
   }
