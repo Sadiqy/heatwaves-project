@@ -1,0 +1,30 @@
+.gridbody-container {
+    font-family: 'Lora', serif;
+    font-size: 33px;
+    margin-top: 350px;
+
+}
+
+#helpful{
+    margin-bottom: 100px;
+}
+
+.gridPlaceholder {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+
+#placeholderDiv {
+    margin-left: -600px;
+}
+
+.gridText {
+    font-family: 'Nunito', sans-serif;
+}
+
+.blueText {
+    font-family: 'Nunito', sans-serif;
+    color: royalblue;
+    margin-top: 40px;
+}
