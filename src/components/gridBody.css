@@ -11,13 +11,11 @@
 
 .gridPlaceholder {
     background-color: red;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
 }
 
-#placeholderDiv {
-    margin-left: -600px;
-}
+
 
 .gridText {
     font-family: 'Nunito', sans-serif;
@@ -30,7 +28,6 @@
 }
 
 #belowSearch{
-    float: right;
     margin-top: 500px;
     margin-right: 200px;
 }

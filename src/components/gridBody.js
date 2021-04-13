@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
     },
     search: {
         fontFamily: '"Nunito", sans-serif',
-        marginLeft: '450px',
+        marginLeft: '650px',
         marginTop:'100px',
         fontWeight: 800,
         fontSize: 14,
@@ -42,10 +42,9 @@ function GridBody() {
         <h1 id='helpful'>Helpful tips to secure<br />affordable therapy</h1>
 
 
-            <div id='placeholderDiv'>
+            <div className='d-flex justify-content-between'>
 
-                <Container>
-                    <Row>
+                
                         <Col xs="6" sm="4">
                             <div className='gridPlaceholder'></div>
                             <h4>Ask about Affordable Care</h4>
@@ -69,8 +68,7 @@ function GridBody() {
                             <h5 className='blueText'>*We rely on our own discovery and user submission to collect affordable therapy resources.</h5>
 
                         </Col>
-                    </Row>
-                </Container>
+                    
 
             </div>
 
@@ -84,21 +82,14 @@ function GridBody() {
 
             />
 
-            <div id='belowSearch'>
-                <h1>You deserve affordable,<br/>accessible therapy.</h1>
-                <h5 className='gridText'>We hope our platform helps connect you with the<br/> services or resource you're looking for:
-                 we'll always<br/> be a free resource, so we appreciate all you support<br/> and feedback.</h5>
-                 <h5 className='gridText'>Sincerely,</h5>
-                 <h5 style={{'font-weight':'bold'}} className='gridText'>The You Find Therapy Team</h5>
             </div>
 
-
-
-        </div>
-
-
-
-    );
-}
+            
+            
+            
+            );
+            
+        }
+        
 
 export default GridBody;

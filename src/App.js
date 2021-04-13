@@ -4,6 +4,8 @@ import Navbar from './components/Navbar'
 import Header from './components/header'
 import Body from './components/body'
 import Gridbody from './components/gridBody'
+import Slider from './components/carousel'
+import BelowSearch from './components/belowSearch'
 //import Navbar from 'react-navbar';
 
 function App() {
@@ -13,6 +15,8 @@ function App() {
       <Header/>
       <Body/>
       <Gridbody/>
+      <BelowSearch/>
+      <Slider/>
     </div>
   );
 }
