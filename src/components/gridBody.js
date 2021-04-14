@@ -1,6 +1,6 @@
 import React from 'react'
 import './gridBody.css';
-import { Row, Col, Container} from "react-bootstrap";
+import {Col} from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Chip from '@material-ui/core/Chip';
 import { makeStyles } from '@material-ui/core/styles';

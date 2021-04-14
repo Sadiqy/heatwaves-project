@@ -1,0 +1,13 @@
+.footer{
+    margin-top: 300px;
+    padding-top: 150px;
+    background-color: black;
+    border-top-left-radius: 100%200px;
+    border-top-right-radius: 100%200px;  
+    margin-left: -20px;
+    margin-right: -20px;
+    color:white;
+}
+.footerImg{
+    height: 5px;
+}
