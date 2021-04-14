@@ -5,7 +5,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
 
-    search: {
+    button: {
         fontFamily: '"Nunito", sans-serif',
         //marginLeft: '650px',
         marginTop:'25px',
@@ -37,16 +37,16 @@ function BodyEnd() {
                             label="Submit provider or resource"
                             clickable
                             variant="outlined"
-                            className={classes.search}
+                            className={classes.button}
                         />
                     </Col>
                     <Col>
-                        <div className='gridPlaceholder'></div>
+                        <div></div>
                     </Col>
                 </Row>
             </Container>
 
-            <Container style={{'marginTop': '300px'}}>
+            <Container style={{ 'marginTop': '300px' }}>
                 <Row>
                     <Col>
                         <h1 style={{ 'font-family': 'Lora, serif', marginBottom: '50px' }}>Care Providers- Get Involved with us</h1>
@@ -56,11 +56,11 @@ function BodyEnd() {
                             label="Add my clinic/practice to the list"
                             clickable
                             variant="outlined"
-                            className={classes.search}
+                            className={classes.button}
                         />
                     </Col>
                     <Col>
-                        <div className='gridPlaceholder'></div>
+                        <div></div>
                     </Col>
                 </Row>
             </Container>

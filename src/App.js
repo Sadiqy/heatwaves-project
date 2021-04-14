@@ -1,29 +1,17 @@
 import React from 'react'
 import './App.css';
-import Navbar from './components/Navbar'
-import Header from './components/header'
-import Body from './components/body'
-import Gridbody from './components/gridBody'
-import Slider from './components/carousel'
-import BelowSearch from './components/belowSearch'
-import BodyEnd from './components/bodyEnd'
-import Footer from './components/footer'
-//import Navbar from 'react-navbar';
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Home from './pages/Home.js';
+import ForCare from './pages/ForCare.js';
 
 function App() {
   return (
-    <div className="app-container">
-      <div className="inner-container">
-        <Navbar/>
-        <Header/>
-        <Body/>
-        <Gridbody/>
-        <BelowSearch/>
-        <Slider/>
-        <BodyEnd/>
+    <Router>
+      <div>
+        <Route exact path="/" component={Home}/>
+        <Route path="/ForCare" component={ForCare}/>
       </div>
-      <Footer/>
-    </div>
+    </Router>
   );
 }
 

@@ -8,7 +8,7 @@ function Slider2() {
             <Container>
                 <Row>
                     <Col>
-                        2 of 3
+                       
                     </Col>
                     <Col>
                         <h1 style={{ 'font-family': 'Lora, serif' }}>Here are testimonials</h1>

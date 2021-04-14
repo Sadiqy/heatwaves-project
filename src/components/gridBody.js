@@ -4,6 +4,9 @@ import {Col} from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Chip from '@material-ui/core/Chip';
 import { makeStyles } from '@material-ui/core/styles';
+import dollarSign from '../img/dollarSign.JPG'
+import KnowUpfront from '../img/upfront.JPG'
+import share from '../img/shareCare.JPG'
 
 const useStyles = makeStyles((theme) => ({
 
@@ -46,14 +49,14 @@ function GridBody() {
 
                 
                         <Col xs="6" sm="4">
-                            <div className='gridPlaceholder'></div>
+                            <div><img src={dollarSign}/></div>
                             <h4>Ask about Affordable Care</h4>
                             <h5 className='gridText'>Sliding Scale is a payment structure that allows people to pay for services in proportion to personal factors,
                              such as income.</h5>
                             <h5 className='blueText'>Even if a provider seems to expensive--and even if you didn't find them there--you can alwaysreach out to see if they'll work out a different price for you</h5>
                         </Col>
                         <Col xs="6" sm="4">
-                            <div className='gridPlaceholder'></div>
+                            <div><img src={KnowUpfront}/></div>
                             <h4>Know Up Front</h4>
                             <h5 className='gridText'>Some providers might charge for you first session or might do a free intake session,
                              so always make sure you explain your situation and get a quoute up front</h5>
@@ -61,7 +64,7 @@ function GridBody() {
 
                         </Col>
                         <Col sm="4">
-                            <div className='gridPlaceholder'></div>
+                            <div><img src={share}/></div>
                             <h4>Share the care</h4>
                             <h5 className='gridText'>Once you find a therapist in our network,
                              share the care by submitting the provider's details to our database, so other people can find them.</h5>
